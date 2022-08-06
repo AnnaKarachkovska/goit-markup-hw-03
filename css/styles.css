@@ -52,6 +52,7 @@ address {
     --background-color-light: #F5F4FA;
     --white: #ffffff;
     --border: #EEEEEE; 
+    --border-top: #ECECEC;
 }
 
 /* Стилі для index.html */
@@ -92,6 +93,10 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.header {
+    border-bottom: 1px solid var(--border-top);
 }
 
 .main-nav {
@@ -355,7 +360,7 @@ footer {
 .cards .item {
     flex-basis: calc((100% - 60px) / 3);
     
-    border: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
 }
 
 .cards .img {
